@@ -44,7 +44,7 @@ The target isn't a chatbot that answers Whoop questions when asked. It's a coach
 
 > **Note:** This mockup shows the target experience. Today the coach replies in plain text; the cards, chart, buttons, strain targets and automatic next-morning follow-up are future work.
 
-Three proactive messages that weren't asked for, two logs that took one sentence, and one real question answered by reasoning over tool calls rather than a lookup. That's the whole pitch: **autonomy** (it decides when to speak and what to check), **memory** (it gets better at answering because it remembers), and **reach** (it lives where the user already is). Numbers shown are illustrative. _Interactive version: link coming soon._
+Three proactive messages that weren't asked for, two logs that took one sentence, and one real question answered by reasoning over tool calls rather than a lookup. That's the whole pitch: **autonomy** (it decides when to speak and what to check), **memory** (it gets better at answering because it remembers), and **reach** (it lives where the user already is). Numbers shown are illustrative.
 
 * * *
 
