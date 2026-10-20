@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the coach backup every night
+
+[Timer]
+# 08:30 UTC: night-time in the Americas. Persistent: if the VM was off
+# at that time (a reboot), run it as soon as it is back.
+OnCalendar=*-*-* 08:30:00 UTC
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

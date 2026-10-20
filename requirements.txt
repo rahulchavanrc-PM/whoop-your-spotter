@@ -1,0 +1,8 @@
+slack-bolt
+apscheduler<4
+mcp
+litellm
+httpx
+python-dotenv
+tzlocal
+pytest

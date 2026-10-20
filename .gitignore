@@ -1,0 +1,12 @@
+.env
+venv/
+__pycache__/
+*.pyc
+coach.db
+coach.db-wal
+coach.db-shm
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.whoop_token.lock
+.whoop_access.json

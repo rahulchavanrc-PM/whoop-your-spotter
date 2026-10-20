@@ -1,0 +1,10 @@
+[Unit]
+Description=Nightly backup of the coach's memory (coach.db) to Oracle Object Storage
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/whoop-your-spotter
+ExecStart=/home/ubuntu/whoop-your-spotter/venv/bin/python -m coach.backup

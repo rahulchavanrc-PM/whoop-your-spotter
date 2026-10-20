@@ -1,0 +1,18 @@
+[Unit]
+Description=Whoop-your-Spotter fitness coach (Slack + WHOOP)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/whoop-your-spotter
+ExecStart=/home/ubuntu/whoop-your-spotter/venv/bin/python -m coach.app
+Environment=PYTHONUNBUFFERED=1
+# Come back after a crash or a reboot, but not in a tight loop if something
+# is genuinely broken (bad token, no network).
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "whoop-coach": {
+      "command": "/path/to/whoop-your-spotter/venv/bin/python",
+      "args": ["-m", "coach.mcp_server"],
+      "env": {
+        "PYTHONPATH": "/path/to/whoop-your-spotter"
+      }
+    }
+  }
+}
